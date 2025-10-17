@@ -2,18 +2,18 @@
 <Mod id="b4ba7342-9f43-11f0-ac3f-b42e99690573" version="1">
 	<Properties>
 		<Name>交易记录Demo</Name>
-		<Teaser>Team PVP 交易记录</Teaser>
+		<Teaser>交易记录</Teaser>
         <Version>001</Version>
 		<Description>团队这块</Description>
 		<Authors>煎包</Authors>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
-    <Components>
-        <AddGameplayScripts id="TEST_LUA">
-            <File>.lua</File>
-        </AddGameplayScripts>
-    </Components>
+	<Components>
+		<AddUserInterfaces id="AddUserInterfaces">
+			<File>DealRecord.lua</File>
+		</AddUserInterfaces>
+	</Components>
 	<Files>
-		<File></File>
+		<File>DealRecord.lua</File>
 	</Files>
 </Mod>
